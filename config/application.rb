@@ -15,7 +15,7 @@ module BlogApp
     # Dotenv::Railtie.load
 
     if ['development', 'test'].include? ENV['RAILS_ENV']
-     Dotenv::Railtie.load
+      Dotenv::Railtie.load
     end
 
 
